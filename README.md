@@ -47,6 +47,8 @@ Face à ce constat, la direction a décidé de remettre à plat l'architecture g
 
 ## Architecture cible
 
+![Architecture WAN Telredor](docs/schemas/architecture-wan.png)
+
 Le POC interconnecte **3 entités hétérogènes** unifiées par une couche SD-WAN et sécurisées par des pare-feu UTM Stormshield sur chaque site.
 
 | Site maquette | Rôle Telredor | Raccordement |
