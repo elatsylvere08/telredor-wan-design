@@ -56,6 +56,7 @@ Le POC interconnecte **3 entités hétérogènes** unifiées par une couche SD-W
 | **Site B** | Bureau de proximité (sans MPLS) | 4G + tunnel VPN IPsec |
 
 ![Architecture WAN Telredor](docs/schemas/architecture-wan.png) 
+*Schéma général de l'architecture WAN unifiée — 3 sites, 3 technologies (MPLS/fibre/4G), orchestration SD-WAN*
 
 **Plan d'adressage** : chaque liaison inter-site utilise un sous-réseau `/30` dédié. Le site B ne dispose pas d'accès Internet direct — ses flux web transitent par le site A ou par le Datacenter selon les décisions du SD-WAN.
 
